@@ -1,10 +1,12 @@
 {
   "name": "6-portfoliopage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio Site 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,11 @@
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
     "portal-vue": "^2.1.7",
     "vue.js": "^0.3.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
   }
 }
