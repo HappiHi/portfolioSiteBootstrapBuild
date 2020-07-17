@@ -1,8 +1,17 @@
-
-
-
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+::placeholder {
+    color: black;
+
+}
+
+.imageSizesArticles {
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+
 }
 
 .card-img {
@@ -34,4 +43,14 @@ footer i:hover {
 
 .fheaderweight {
     font-weight: bold;
+}
+
+#article1 {
+
+    background-color: brown;
+}
+
+.article2 {
+    padding-top: 10px;
+    padding-left: 5px;
 }

@@ -23,7 +23,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item ml-4">
-            <a class="nav-link" href="#articles">Articles <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ml-4">
+            <a class="nav-link" href="articlesTrans.html">Articles <span class="sr-only">(current)</span></a>
+          </li>
+            <li class="nav-item ml-4">
+            <a class="nav-link" href="#workshop">Workshops <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ml-4">
+            <a class="nav-link" href="#" data-toggle ="modal" data-target="#contactmodal">Contact <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item ml-4 dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="gallery" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
@@ -35,19 +44,13 @@
               <a class="dropdown-item" href="#">Abstract Components</a>
             </div>
           </li>
-          <li class="nav-item ml-4">
-            <a class="nav-link" href="#workshop">Workshops <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item ml-4">
-            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
-          </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         </form>
       </div>
   </nav>
-
+  <!--Nav End-->
 
   <!--Hero image Area-->
   <div class="jumbotron-fluid" style="background: url(img/001_webImage_header.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding-bottom: 35%; background-attachment: local;">
@@ -103,7 +106,7 @@
           <img src="img/road-220058_1280.jpg" class="card-img" alt="CardImage">
           <div class="card-img-overlay text-white">
             <h3 class="card-title">Life on the Road</h3>
-            <p class="card-text">Road Tripping during Quarentine. <br/> The New Rules of the Road.</p>
+            <p class="card-text">Road Tripping during quarantine. <br/> The New Rules of the Road.</p>
             <a href="#" class="stretched-link"></a>
           </div>
         </div>
@@ -122,6 +125,29 @@
       <div class="row" id="workshop">
         <div class="col-sm center-block text-center">
           <h3>Workshop Schedule</h3>
+          <br/>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">July</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">22nd</th>
+                <td>An Intro to Landscape Photography <br/>at RedRock Canyon</td>
+              </tr>
+              <tr>
+                <th scope="row">25th</th>
+                <td>Focus your aperture</td>
+              </tr>
+              <tr>
+                <th scope="row">26th</th>
+                <td>Capturing Time, long exposure <br/> nighttime photography</td>
+              </tr>
+            </tbody>
+          </table>
       </div>
   </div>
   <hr>
@@ -132,32 +158,69 @@
     <div class="container-fluid">
       <footer class="site-footer">
             <div class="row bg-dark text-secondary">
-                <div class="col-4 col-sm-2 offset-1 mt-3">
+                <div class="col-4 col-sm-2 offset-2 mt-3">
                     <h5 class="fheaderweight">Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Articles</a></li>
+                        <li><a href="#articles">Articles</a></li>
                         <li><a href="#">Galleries</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="#workshop">Workshops</a></li>
+                        <li><a href="#" data-toggle ="modal" data-target="#contactmodal">Contact <span class="sr-only"></a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-sm-5 text-center mt-3">
+                <div class="col-6 col-sm-5 text-center offset-3 mt-3">
                     <h5 class="fheaderweight">Social</h5>
                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
                     <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
                     <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
                     <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
                 </div>
-                <div class="col-sm-4 text-center mt-3">
-                    <div class="col">
-                    <a role="button" class="btn btn-link" href="tel:+12065551234"> <i class="fa fa-phone"></i> 1-888-888-888</a>
-                    <br />
-                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"> <i class="fa fa-envelope"></i> happihi@gmail.com </a>
-                  </div>
             </div>
       </footer>
     </div>
 
+    <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="col">
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Image Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Questions?</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
