@@ -39,7 +39,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item pd-0" href="#">HomeTown</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">American Southwest</a>
+              <a class="dropdown-item" href="aSouthWestGallery.html">American Southwest</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Abstract Components</a>
             </div>
@@ -61,15 +61,15 @@
 
 <!--Start of main index page-->
 <!--About me section-->
-  <div class="container-xl">
-    <div class="row">
+  <div class="container-fluid">
+    <div class="row my-4 mx-4">
       <div class="col pt-4 center-block text-center">
-          <p><em>Once upon a time there was a photographer</em></p>
+          <p><em>A southwest fine art photographer. </em></p>
       </div>
     </div>
     <hr>
 <!--Article section-->
-    <div class="row" id="articles" >
+    <div class="row my-4 mx-4" id="articles" >
       <div class="col-xl center-block text-center">
         <h3>Articles</h3>
     </div>
@@ -77,19 +77,19 @@
 <!--Article links-->
     <div class="row">
 <!--article one-->
-      <div class="col-md-4 p-2">
+      <div class="col-md-3 p-2">
         <div class="card bg-dark">
           <img src="img/forest-931706_1920.jpg" class="card-img" alt="CardImage">
           <div class="card-img-overlay text-white">
             <h3 class="card-title">Transversing the Forest</h3>
-            <p class="card-text">Photographing inside of a forest, your guide <br/> to completing you forest photographic journey.</p>
+            <p class="card-text">Photographing inside of a forest, your guide to completing you forest photographic journey.</p>
             <a href="articlesTrans.html" class="stretched-link"></a>
           </div>
         </div>
       </div>
   
 <!--article two-->
-      <div class="col-md-4 p-2">
+      <div class="col-md-3 p-2">
         <div class="card bg-dark">
           <img src="img/road-1072823_1920.jpg" class="card-img" alt="CardImage">
           <div class="card-img-overlay text-white">
@@ -101,7 +101,7 @@
       </div>
 
 <!--article three-->
-      <div class="col-md-4 p-2">
+      <div class="col-md-3 p-2">
         <div class="card bg-dark">
           <img src="img/road-220058_1280.jpg" class="card-img" alt="CardImage">
           <div class="card-img-overlay text-white">
@@ -111,18 +111,69 @@
           </div>
         </div>
       </div>
+<!--article four-->
+      <div class="col-md-3 p-2">
+        <div class="card bg-dark">
+          <img src="img/antelope-canyon-457495_1920.jpg" class="card-img" alt="CardImage">
+          <div class="card-img-overlay text-white">
+            <h3 class="card-title">The Last Days of Antelope Canyon</h3>
+            <p class="card-text">Unforunately, Antelope Canyon has been shut down to vistors. It's time to review the best and worst of this Iconic photographic canyon.</p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
 
 <!--end of articles-->
+
+
+<!--Start of Gallery-->
     </div>
-    </div>
-    <hr>
-      <div class="row">
+  </div>
+  <hr>
+      <div class="row my-4 mx-4">
         <div class="col-sm center-block text-center">
           <h3>Galleries</h3>
+        </div>
       </div>
+<!--Gallery One Link-->
+      <div class="row my-4 mx-4">
+        <div class="col-md-4 p-2">
+          <div class="card bg-dark text-center">
+            <img src="img/las-vegas-680953_1920.jpg" class="card-img" alt="HomeTown">
+            <div class="card-img-overlay text-white">
+              <h3 class="card-title">HomeTown</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+<!--Gallery Two Link-->
+        <div class="col-md-4 p-2 d-flex">
+          <div class="card bg-dark text-center">
+            <img src="img/001_webImage_Zion.jpg" class="card-img" alt="AmericanSouthwest">
+            <div class="card-img-overlay text-white">
+              <h3 class="card-title">American Southwest</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+
+<!--Gallery Three Link-->
+        <div class="col-md-4 p-2">
+          <div class="card bg-dark text-center">
+            <img src="img/abstract-2468874_1920.jpg" class="card-img" alt="Abstract Components">
+            <div class="card-img-overlay text-white">
+              <h3 class="card-title">Abstract Components</h3>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+
+<!--End of Gallery-->
     </div>
     <hr>
-      <div class="row" id="workshop">
+
+<!--Workshop Start-->
+      <div class="row  my-4 mx-4" id="workshop">
         <div class="col-sm center-block text-center">
           <h3>Workshop Schedule</h3>
           <br/>
@@ -152,24 +203,22 @@
   </div>
   <hr>
 </div>
-    
+<!--Workshop end-->
 
 <!--Footer Start-->
     <div class="container-fluid">
       <footer class="site-footer">
             <div class="row bg-dark text-secondary">
-                <div class="col-4 col-sm-2 offset-2 mt-3">
-                    <h5 class="fheaderweight">Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#articles">Articles</a></li>
-                        <li><a href="#">Galleries</a></li>
-                        <li><a href="#workshop">Workshops</a></li>
-                        <li><a href="#" data-toggle ="modal" data-target="#contactmodal">Contact <span class="sr-only"></a></li>
+                <div class="col-4 col-sm-2 offset-2 mt-3 mb-2">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item bg-dark border-0"><a href="#">Home</a></li>
+                        <li class="list-group-item bg-dark border-0"><a href="#articles">Articles</a></li>
+                        <li class="list-group-item bg-dark border-0"><a href="aSouthWestGallery.html">Galleries</a></li>
+                        <li class="list-group-item bg-dark border-0"><a href="#workshop">Workshops</a></li>
+                        <li class="list-group-item bg-dark border-0"><a href="#" data-toggle ="modal" data-target="#contactmodal">Contact <span class="sr-only"></a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-sm-5 text-center offset-3 mt-3">
-                    <h5 class="fheaderweight">Social</h5>
                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
                     <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
                     <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
@@ -178,6 +227,8 @@
             </div>
       </footer>
     </div>
+
+<!--Footer end-->
 
     <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
